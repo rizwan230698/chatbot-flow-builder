@@ -1,12 +1,53 @@
-# React + Vite
+# Chatbot Flow Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and efficient application for flow builder.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Node.js**: Ensure you have lastest Node.js version **v24.5.0** installed on your system.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to set up the project locally:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/rizwan230698/chatbot-flow-builder.git
+```
+
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd chatbot-flow-builder
+```
+
+### 3. Install Dependencies
+
+Run the following command to install the necessary dependencies:
+
+```bash
+npm install
+```
+
+### 4. Start the Local Server
+
+Start the development server using:
+
+```bash
+npm run dev
+```
+
+
+### 5. Open the Application
+
+Visit the application in your browser at:
+
+```bash
+http://localhost:5173/
+```
+
+
+
+
