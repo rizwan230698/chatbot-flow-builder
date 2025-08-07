@@ -25,7 +25,7 @@ export default function SettingsPanel() {
       <div className="settings-panel-header">
         <img
           width={24}
-          src="/src/assets/back.png"
+          src="/assets/back.png"
           alt="Back"
           role="button"
           onClick={() => setSelectedNodeId(null)}

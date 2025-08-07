@@ -7,11 +7,7 @@ export default function NodesPanel() {
     <div className="nodes-panel">
       {nodes.map((item) => (
         <Draggable id={item.id} data={item} key={item.id}>
-          <img
-            className="node-icon"
-            src={`/src/assets/${item.type}.png`}
-            alt=""
-          />
+          <img className="node-icon" src={`/assets/${item.type}.png`} alt="" />
           {item.label}
         </Draggable>
       ))}

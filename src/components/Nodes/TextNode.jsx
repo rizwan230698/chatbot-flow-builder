@@ -9,11 +9,11 @@ export default function TextNode({ id, data }) {
     <div className={`text-node ${isSelected ? "selected" : ""}`}>
       <div className="text-node-header">
         <div>
-          <img width={16} src="/src/assets/text.png" alt="" />
+          <img width={16} src="/assets/text.png" alt="" />
           <span>Send Message</span>
         </div>
         <div>
-          <img width={16} src="/src/assets/whatsapp.png" alt="" />
+          <img width={16} src="/assets/whatsapp.png" alt="" />
         </div>
       </div>
       <div className="text-node-content">{data.value}</div>
