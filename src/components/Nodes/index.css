@@ -1,0 +1,34 @@
+.text-node {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-node.selected {
+  outline: 2px solid #5c6ac4;
+}
+
+.text-node .text-node-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b1f0e4;
+  padding: 8px;
+  font-weight: 600;
+}
+
+.text-node .text-node-header div:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+}
+
+.text-node .text-node-content {
+  display: flex;
+  background-color: #ffffff;
+  padding: 16px 8px;
+}

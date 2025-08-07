@@ -1,0 +1,56 @@
+.settings-panel {
+  width: 360px;
+  border-top: 1px solid #12172433;
+  border-left: 1px solid #12172433;
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  bottom: 0;
+  background-color: #ffffff;
+}
+
+.settings-panel .settings-panel-header {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #12172433;
+  position: relative;
+}
+
+.settings-panel .settings-panel-header span {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.settings-panel .settings-panel-content {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 16px;
+  border-bottom: 1px solid #12172433;
+}
+
+/* text type node styles */
+.settings-panel .text-field-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.settings-panel .text-field-container label {
+  color: #9ca3af;
+}
+
+.settings-panel .text-field-container textarea {
+  width: 100%;
+  height: 150px;
+  resize: vertical;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  outline: none;
+}
+/* text type node styles */

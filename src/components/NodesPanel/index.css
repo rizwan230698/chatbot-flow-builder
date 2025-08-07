@@ -1,0 +1,10 @@
+.nodes-panel {
+  width: 360px;
+  border-top: 1px solid #12172433;
+  border-left: 1px solid #12172433;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: start;
+  padding: 16px;
+  color: #5c6ac4;
+}

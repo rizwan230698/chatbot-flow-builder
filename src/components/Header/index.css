@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 64px;
+  background-color: #f3f3f3;
+  padding: 0 124px;
+}
+
+button {
+  font-weight: 600;
+  color: #5c6ac4;
+  border: 1px solid #5c6ac4;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+button .node-icon {
+  height: 24px;
+}
